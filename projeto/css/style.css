@@ -1,5 +1,5 @@
 *{
-    background-color: lightgray ;
+    background-color: lemonchiffon ;
     color: rgb(0, 0, 0);
     text-decoration: dashed;
     font-style: italic;
@@ -8,11 +8,11 @@ ul{
     font-size: 18px;
     margin-top: 6px;
     padding: 3px 40px; 
+    text-align: left;
 }
 li{
     padding: 5px;
 }
-
 
 p{
     font-size: 19px;
@@ -20,28 +20,38 @@ p{
 h1{
     font-size: 45px;
 }
+body{
+    text-align: center;
+}
 #a-proxima {
     color: purple !important;
-    position: absolute;
+    position:fixed;
     bottom: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 25px;
+    left: 47%;
 }
 
-/* img {
-    display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-} */
 
 ul{
     border: 2px solid;
-    margin: 10px 10px 20px 10px
+    margin: 10px 10px 20px 10px;
+    border-radius: 20px;
 }
 
 img{
     width: 20%;
     overflow: hidden;
     margin: 10px 0 20px 0;
+}
+
+* button{
+    border-radius: 20px;
+    background-color: brown;
+    color: wheat;
+    font-size: 18px;
+}
+p{
+    position: absolute;
+    bottom: 0;
 }

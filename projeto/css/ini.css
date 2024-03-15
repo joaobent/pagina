@@ -1,0 +1,31 @@
+*{
+    background-color: lemonchiffon;
+}
+div{
+    margin: 5px;
+    padding: 100px;
+    font-size: 23px;
+}
+
+a{
+    color: purple !important;
+    bottom: 0;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    font-style: italic;
+}
+body{
+    text-align: center;
+}
+* button{
+    border-radius: 25px 15px;
+    background-color: brown;
+    color: wheat;
+    font-size: 18px;
+
+    
+}
+img{
+    text-align: left ;
+}
