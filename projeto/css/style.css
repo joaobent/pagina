@@ -1,4 +1,4 @@
-*{
+body{
     background-color: lemonchiffon ;
     color: rgb(0, 0, 0);
     text-decoration: dashed;
@@ -19,28 +19,16 @@ p{
 }
 h1{
     font-size: 45px;
+    background-color: transparent;
+
 }
 body{
     text-align: center;
 }
-#a-proxima {
-    color: purple !important;
-    position:fixed;
-    bottom: 0;
-    margin-bottom: 30px;
-    font-size: 25px;
-    left: 47%;
-}
 
-
-ul{
-    border: 2px solid;
-    margin: 10px 10px 20px 10px;
-    border-radius: 20px;
-}
 
 img{
-    width: 20%;
+    width: 100%;
     overflow: hidden;
     margin: 10px 0 20px 0;
 }
@@ -55,3 +43,31 @@ p{
     position: absolute;
     bottom: 0;
 }
+
+.divbordas{
+    width: 20%;
+    height: 50%;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 5px 13px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    background-color: bisque;
+    left: 0;
+    border-radius: 10px;
+}
+.ancorah{
+    background-color: transparent;
+    padding: 10px;
+    
+}
+

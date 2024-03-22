@@ -3,8 +3,9 @@
 }
 div{
     margin: 5px;
-    padding: 100px;
+    padding: 3px;
     font-size: 23px;
+    font-style:Rock Salt
 }
 
 a{
@@ -26,6 +27,14 @@ body{
 
     
 }
-img{
-    text-align: left ;
+body{
+    background-image: url(../img/logo.jpg);
+    background-repeat: no-repeat;
 }
+
+img{
+    width: 400px;
+}
+  
+
+  
