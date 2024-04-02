@@ -36,5 +36,10 @@ img{
     width: 400px;
 }
   
-
-  
+footer{
+    position: absolute;
+}
+#conta{
+    font-weight: bold;
+    font-size: 2vh;
+}
